@@ -17,7 +17,7 @@
     "storybook": "start-storybook -p ${PORT:-3001} -h 0.0.0.0",
     "deploy": "gh-pages -d build"
   },
-  "main": "src/index.js",
+  "main": "lib/index.esm.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/gorokhovvs/react-sortable-tree"
